@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-const lib = require("../../dist/index");
+const lib = require("../dist/index");
 
 export default (req: NowRequest, res: NowResponse) => {
   const body = req.body;
