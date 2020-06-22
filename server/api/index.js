@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const lib = require("../dist/index");
+const lib = require("../../dist/index");
 
 const app = express();
 app.use(bodyParser.json());
