@@ -1,6 +1,6 @@
 {
   "name": "reactel-to-html",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "convert html to jsx and convert the jsx to html",
   "main": "dist/index.js",
   "scripts": {
@@ -25,14 +25,13 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@babel/core": "^7.10.3",
     "@babel/plugin-transform-react-jsx": "^7.10.3",
     "@babel/standalone": "^7.10.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "bin": {
-    "htmlToJsxToHtml": "htmlToJsxToHtml.js"
+    "reactelToHtml": "reactelToHtml.js"
   },
   "files": [
     "dist"
