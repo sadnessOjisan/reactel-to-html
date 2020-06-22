@@ -1,8 +1,8 @@
 {
-  "name": "html-jsx-html",
-  "version": "0.0.1",
+  "name": "reactel-to-html",
+  "version": "0.0.2",
   "description": "convert html to jsx and convert the jsx to html",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -21,11 +21,13 @@
     "@types/react": "^16.9.38",
     "@types/react-dom": "^16.9.8",
     "jest": "^26.0.1",
+    "ts-jest": "^26.1.1",
     "typescript": "^3.9.5"
   },
   "dependencies": {
     "@babel/core": "^7.10.3",
     "@babel/plugin-transform-react-jsx": "^7.10.3",
+    "@babel/standalone": "^7.10.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
