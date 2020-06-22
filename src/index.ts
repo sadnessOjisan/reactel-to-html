@@ -1,6 +1,6 @@
 const React = require("react");
 import * as ReactDOMServer from "react-dom/server";
-const babel = require("@babel/core");
+const babel = require("@babel/standalone");
 
 /**
  * React.Element文字列 を HTML文字列に変換する
@@ -8,7 +8,7 @@ const babel = require("@babel/core");
  */
 export default (reactEl: string) => {
   const res = babel.transform(reactEl, {
-    plugins: ["@babel/plugin-transform-react-jsx"],
+    plugins: ["transform-react-jsx"],
   });
   if (!res?.code) throw new Error("it should be output code.");
   const el = eval(res.code);
