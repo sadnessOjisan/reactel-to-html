@@ -1,4 +1,4 @@
-const convert = require("../dist/index");
+const convert = require("../../../dist/index");
 
 const html = process.argv[2];
 

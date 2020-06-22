@@ -1,9 +1,9 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-const lib = require("../dist/index");
+import convert from "html-jsx-html";
 
 export default (req: NowRequest, res: NowResponse) => {
   const body = req.body;
   const { html } = body;
-  const convertedHtml = lib.default(html);
+  const convertedHtml = convert(html);
   res.status(200).json(convertedHtml);
 };
