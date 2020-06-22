@@ -226,10 +226,10 @@ fresh@0.5.2:
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
-html-jsx-html@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/html-jsx-html/-/html-jsx-html-0.0.2.tgz#39664df28b0f4dae36d332d01a7a26ec35716ee0"
-  integrity sha512-1R7l4+mtftkS1CsB6ixavB1ZH1UoOQD5/hhJBBoL1AjGCfiKZjnHuQah7zm/acKlB4hQ1N3A3g8ieHaH1yYoyQ==
+html-jsx-html@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/html-jsx-html/-/html-jsx-html-0.0.4.tgz#ac9404dc2e36cb2182c2414418cab9ff6a5cc954"
+  integrity sha512-zh7H8JDMH44cR7SLcixNMSqNekYfVGcjfQrMSmyNYZaD9BFz7/q/9szioArgOAX6wY7ai6P6EWgZ4XHRN47/ag==
   dependencies:
     react "^16.13.1"
     react-dom "^16.13.1"

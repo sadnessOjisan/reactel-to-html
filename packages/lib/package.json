@@ -1,6 +1,6 @@
 {
   "name": "html-jsx-html",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "convert html to jsx and convert the jsx to html",
   "main": "dist/index.js",
   "scripts": {

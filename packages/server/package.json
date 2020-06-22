@@ -22,6 +22,6 @@
   "dependencies": {
     "@vercel/node": "^1.7.1",
     "express": "^4.17.1",
-    "html-jsx-html": "^0.0.2"
+    "html-jsx-html": "^0.0.4"
   }
 }
