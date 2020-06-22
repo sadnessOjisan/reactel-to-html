@@ -25,7 +25,6 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@babel/core": "^7.10.3",
     "@babel/plugin-transform-react-jsx": "^7.10.3",
     "@babel/standalone": "^7.10.3",
     "react": "^16.13.1",

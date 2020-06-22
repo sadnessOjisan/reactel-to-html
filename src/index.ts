@@ -1,4 +1,4 @@
-const React = require("react");
+const React = require("react"); // without this, you cannot use Reac.tcreateElement...
 import * as ReactDOMServer from "react-dom/server";
 const babel = require("@babel/standalone");
 
