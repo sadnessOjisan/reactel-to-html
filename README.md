@@ -1,14 +1,20 @@
-# html-to-jsx-to-html
+# reactel-to-html
 
 convert react-el to html.
 
-server
+```js
+import convert from "reactel-to-html";
 
-```sh
-$ curl -X POST -H "Content-Type: application/json" -d '{"html":"<div>hello</div>"}' localhost:3000
+const el = `<div className="App">
+              <h1>Hello CodeSandbox</h1>
+              <h2>Start editing to see some magic happen!</h2>
+            </div>`;
+
+const html = convert(el);
+
+// <div class="App" data-reactroot=""><h1>Hello CodeSandbox</h1><h2>Start editing to see some magic happen!</h2></div>
 ```
 
-## todo
+## example
 
-- [ ] サーバー
-- [ ] library
+[![Edit inspiring-ride-ob5vn](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/inspiring-ride-ob5vn?fontsize=14&hidenavigation=1&theme=dark)
