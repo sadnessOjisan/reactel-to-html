@@ -1,6 +1,6 @@
 {
   "name": "html-to-jsx-to-html",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "convert html to jsx and convert the jsx to html",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/sadnessOjisan/html-to-jsx-to-html.git"
   },
-  "author": "",
+  "author": "@sadnessOjisan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sadnessOjisan/html-to-jsx-to-html/issues"
@@ -23,8 +23,13 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-html-parser": "^2.0.2"
-  }
+  },
+  "bin": {
+    "htmlToJsxToHtml": "htmlToJsxToHtml.js"
+  },
+  "files": [
+    "dist"
+  ]
 }
