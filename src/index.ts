@@ -1,5 +1,5 @@
 const React = require("react");
-const ReactDOMServer = require("react-dom/server");
+import * as ReactDOMServer from "react-dom/server";
 const babel = require("@babel/core");
 
 /**
